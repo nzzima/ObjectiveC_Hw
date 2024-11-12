@@ -35,4 +35,8 @@
     return pi * _radius * _radius;
 }
 
+- (void)ShowInfo {
+    NSLog(@"Circle with radius = %ld", _radius);
+}
+
 @end

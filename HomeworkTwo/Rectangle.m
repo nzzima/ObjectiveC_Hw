@@ -9,7 +9,7 @@
 
 @implementation Rectangle
 
-- (instancetype)initWithWidthAndLength:(NSInteger)length b:(NSInteger)width {
+- (instancetype)initWithWidthAndLength:(NSInteger)length width:(NSInteger)width {
     self = [super init];
     if (self) {
         _length = length;
@@ -43,7 +43,7 @@
 }
 
 - (void)ShowInfo {
-    NSLog(@"Rectangle with length = %ld and width = %ld", _length, _width);
+    NSLog(@"Rectangle with length = %ld, width = %ld", _length, _width);
 }
 
 @end
