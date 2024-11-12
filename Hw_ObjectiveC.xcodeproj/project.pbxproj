@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8EDD31602CE3783C009DACA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD315F2CE3783C009DACA9 /* main.m */; };
+		8EDD31632CE37875009DACA9 /* Figure.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD31622CE37875009DACA9 /* Figure.m */; };
+		8EDD31662CE37CD6009DACA9 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD31652CE37CD6009DACA9 /* Rectangle.m */; };
+		8EDD31692CE38676009DACA9 /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD31682CE38676009DACA9 /* Triangle.m */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		8E83C8E42CE2392500D950C2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +27,13 @@
 
 /* Begin PBXFileReference section */
 		8E83C8E62CE2392500D950C2 /* Hw_ObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Hw_ObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EDD315F2CE3783C009DACA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EDD31612CE37875009DACA9 /* Figure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Figure.h; sourceTree = "<group>"; };
+		8EDD31622CE37875009DACA9 /* Figure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Figure.m; sourceTree = "<group>"; };
+		8EDD31642CE37CD6009DACA9 /* Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		8EDD31652CE37CD6009DACA9 /* Rectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		8EDD31672CE38676009DACA9 /* Triangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		8EDD31682CE38676009DACA9 /* Triangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Triangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +58,7 @@
 		8E83C8DD2CE2392500D950C2 = {
 			isa = PBXGroup;
 			children = (
+				8EDD315E2CE37808009DACA9 /* HomeworkTwo */,
 				8E83C8E82CE2392500D950C2 /* HomeworkOne */,
 				8E83C8E72CE2392500D950C2 /* Products */,
 			);
@@ -55,6 +70,20 @@
 				8E83C8E62CE2392500D950C2 /* Hw_ObjectiveC */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8EDD315E2CE37808009DACA9 /* HomeworkTwo */ = {
+			isa = PBXGroup;
+			children = (
+				8EDD315F2CE3783C009DACA9 /* main.m */,
+				8EDD31612CE37875009DACA9 /* Figure.h */,
+				8EDD31622CE37875009DACA9 /* Figure.m */,
+				8EDD31642CE37CD6009DACA9 /* Rectangle.h */,
+				8EDD31652CE37CD6009DACA9 /* Rectangle.m */,
+				8EDD31672CE38676009DACA9 /* Triangle.h */,
+				8EDD31682CE38676009DACA9 /* Triangle.m */,
+			);
+			path = HomeworkTwo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EDD31632CE37875009DACA9 /* Figure.m in Sources */,
+				8EDD31602CE3783C009DACA9 /* main.m in Sources */,
+				8EDD31662CE37CD6009DACA9 /* Rectangle.m in Sources */,
+				8EDD31692CE38676009DACA9 /* Triangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
