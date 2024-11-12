@@ -43,4 +43,17 @@
     _A = A;
 }
 
+- (double)Perimiter {
+    return _A + _B + _C;
+}
+
+- (double)Area {
+    double p = _A + _B + _C / 2;
+    return sqrt(p * (p - _A) * (p - _B) * (p - _C));
+}
+
+- (void)ShowInfo {
+    NSLog(@"Triangle with A = %ld, B = %ld, C = %ld", _A, _B, _C);
+}
+
 @end

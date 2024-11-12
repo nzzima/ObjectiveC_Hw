@@ -11,6 +11,7 @@
 		8EDD31632CE37875009DACA9 /* Figure.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD31622CE37875009DACA9 /* Figure.m */; };
 		8EDD31662CE37CD6009DACA9 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD31652CE37CD6009DACA9 /* Rectangle.m */; };
 		8EDD31692CE38676009DACA9 /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD31682CE38676009DACA9 /* Triangle.m */; };
+		8EDD316C2CE38E46009DACA9 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD316B2CE38E46009DACA9 /* Circle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		8EDD31652CE37CD6009DACA9 /* Rectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
 		8EDD31672CE38676009DACA9 /* Triangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
 		8EDD31682CE38676009DACA9 /* Triangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Triangle.m; sourceTree = "<group>"; };
+		8EDD316A2CE38E46009DACA9 /* Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		8EDD316B2CE38E46009DACA9 /* Circle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -82,6 +85,8 @@
 				8EDD31652CE37CD6009DACA9 /* Rectangle.m */,
 				8EDD31672CE38676009DACA9 /* Triangle.h */,
 				8EDD31682CE38676009DACA9 /* Triangle.m */,
+				8EDD316A2CE38E46009DACA9 /* Circle.h */,
+				8EDD316B2CE38E46009DACA9 /* Circle.m */,
 			);
 			path = HomeworkTwo;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EDD316C2CE38E46009DACA9 /* Circle.m in Sources */,
 				8EDD31632CE37875009DACA9 /* Figure.m in Sources */,
 				8EDD31602CE3783C009DACA9 /* main.m in Sources */,
 				8EDD31662CE37CD6009DACA9 /* Rectangle.m in Sources */,
