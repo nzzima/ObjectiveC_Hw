@@ -19,8 +19,10 @@ int main(int argc, const char * argv[]) {
         
         NSArray *listOfFigures = @[rect, tri, circle];
         for (int i = 0; i < listOfFigures.count; i++) {
-            
+            double perimiter = [listOfFigures[i] Perimiter];
+            double area = [listOfFigures[i] Area];
             [listOfFigures[i] ShowInfo];
+            printf("Perimiter = %f, Area = %f\n", perimiter, area);
         }
         
     }
