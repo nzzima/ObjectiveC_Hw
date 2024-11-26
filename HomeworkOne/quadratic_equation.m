@@ -22,15 +22,15 @@ void resultOfEquation (int A, int B, int C) {
     }
 }
 
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        printf("First: x^2 - 8x + 12 = 0\n Second: 12x^2 - 4x + 2 = 0\n Third: x^2 - 100x - 2 = 0\n");
-        printf("Result for One: \n");
-        resultOfEquation(1, -8, 12);
-        printf("Result for Second: \n");
-        resultOfEquation(12, -4, 2);
-        printf("Result for Third: \n");
-        resultOfEquation(1, -100, -2);
-    }
-    return 0;
-}
+//int main(int argc, const char * argv[]) {
+//    @autoreleasepool {
+//        printf("First: x^2 - 8x + 12 = 0\n Second: 12x^2 - 4x + 2 = 0\n Third: x^2 - 100x - 2 = 0\n");
+//        printf("Result for One: \n");
+//        resultOfEquation(1, -8, 12);
+//        printf("Result for Second: \n");
+//        resultOfEquation(12, -4, 2);
+//        printf("Result for Third: \n");
+//        resultOfEquation(1, -100, -2);
+//    }
+//    return 0;
+//}

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E7495E52CF5AA870056F3D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7495E42CF5AA870056F3D2 /* main.m */; };
+		8E7495E82CF5AAED0056F3D2 /* MacBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7495E72CF5AAED0056F3D2 /* MacBook.m */; };
+		8E7495EB2CF5AB000056F3D2 /* Peaple.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7495EA2CF5AB000056F3D2 /* Peaple.m */; };
 		8EDD31602CE3783C009DACA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD315F2CE3783C009DACA9 /* main.m */; };
 		8EDD31632CE37875009DACA9 /* Figure.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD31622CE37875009DACA9 /* Figure.m */; };
 		8EDD31662CE37CD6009DACA9 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD31652CE37CD6009DACA9 /* Rectangle.m */; };
@@ -27,6 +30,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8E7495E42CF5AA870056F3D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E7495E62CF5AAED0056F3D2 /* MacBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacBook.h; sourceTree = "<group>"; };
+		8E7495E72CF5AAED0056F3D2 /* MacBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacBook.m; sourceTree = "<group>"; };
+		8E7495E92CF5AB000056F3D2 /* Peaple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Peaple.h; sourceTree = "<group>"; };
+		8E7495EA2CF5AB000056F3D2 /* Peaple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Peaple.m; sourceTree = "<group>"; };
 		8E83C8E62CE2392500D950C2 /* Hw_ObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Hw_ObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDD315F2CE3783C009DACA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EDD31612CE37875009DACA9 /* Figure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Figure.h; sourceTree = "<group>"; };
@@ -58,9 +66,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E7495E12CF5A9730056F3D2 /* HomeworkThree */ = {
+			isa = PBXGroup;
+			children = (
+				8E7495E42CF5AA870056F3D2 /* main.m */,
+				8E7495E62CF5AAED0056F3D2 /* MacBook.h */,
+				8E7495E72CF5AAED0056F3D2 /* MacBook.m */,
+				8E7495E92CF5AB000056F3D2 /* Peaple.h */,
+				8E7495EA2CF5AB000056F3D2 /* Peaple.m */,
+			);
+			path = HomeworkThree;
+			sourceTree = "<group>";
+		};
+		8E7495EC2CF5BF900056F3D2 /* HomeworkThree_FlockOfBirds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeworkThree_FlockOfBirds;
+			sourceTree = "<group>";
+		};
 		8E83C8DD2CE2392500D950C2 = {
 			isa = PBXGroup;
 			children = (
+				8E7495EC2CF5BF900056F3D2 /* HomeworkThree_FlockOfBirds */,
+				8E7495E12CF5A9730056F3D2 /* HomeworkThree */,
 				8EDD315E2CE37808009DACA9 /* HomeworkTwo */,
 				8E83C8E82CE2392500D950C2 /* HomeworkOne */,
 				8E83C8E72CE2392500D950C2 /* Products */,
@@ -156,9 +185,12 @@
 			files = (
 				8EDD316C2CE38E46009DACA9 /* Circle.m in Sources */,
 				8EDD31632CE37875009DACA9 /* Figure.m in Sources */,
+				8E7495EB2CF5AB000056F3D2 /* Peaple.m in Sources */,
 				8EDD31602CE3783C009DACA9 /* main.m in Sources */,
 				8EDD31662CE37CD6009DACA9 /* Rectangle.m in Sources */,
 				8EDD31692CE38676009DACA9 /* Triangle.m in Sources */,
+				8E7495E52CF5AA870056F3D2 /* main.m in Sources */,
+				8E7495E82CF5AAED0056F3D2 /* MacBook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
