@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E6C2DE12CF893E500C53B03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6C2DE02CF893E500C53B03 /* main.m */; };
+		8E6C2DE42CF89D3600C53B03 /* Robot.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6C2DE32CF89D3600C53B03 /* Robot.m */; };
 		8E7495E52CF5AA870056F3D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7495E42CF5AA870056F3D2 /* main.m */; };
 		8E7495E82CF5AAED0056F3D2 /* MacBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7495E72CF5AAED0056F3D2 /* MacBook.m */; };
 		8E7495EB2CF5AB000056F3D2 /* Peaple.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7495EA2CF5AB000056F3D2 /* Peaple.m */; };
@@ -35,6 +37,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8E6C2DE02CF893E500C53B03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E6C2DE22CF89D3600C53B03 /* Robot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Robot.h; sourceTree = "<group>"; };
+		8E6C2DE32CF89D3600C53B03 /* Robot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Robot.m; sourceTree = "<group>"; };
 		8E7495E42CF5AA870056F3D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8E7495E62CF5AAED0056F3D2 /* MacBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacBook.h; sourceTree = "<group>"; };
 		8E7495E72CF5AAED0056F3D2 /* MacBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacBook.m; sourceTree = "<group>"; };
@@ -83,6 +88,9 @@
 		8E6C2DDF2CF893B200C53B03 /* HomeworkFour */ = {
 			isa = PBXGroup;
 			children = (
+				8E6C2DE02CF893E500C53B03 /* main.m */,
+				8E6C2DE22CF89D3600C53B03 /* Robot.h */,
+				8E6C2DE32CF89D3600C53B03 /* Robot.m */,
 			);
 			path = HomeworkFour;
 			sourceTree = "<group>";
@@ -218,7 +226,9 @@
 				8EDD31632CE37875009DACA9 /* Figure.m in Sources */,
 				8E7495EB2CF5AB000056F3D2 /* Peaple.m in Sources */,
 				8E7495FC2CF5E6BE0056F3D2 /* Nest.m in Sources */,
+				8E6C2DE12CF893E500C53B03 /* main.m in Sources */,
 				8EDD31602CE3783C009DACA9 /* main.m in Sources */,
+				8E6C2DE42CF89D3600C53B03 /* Robot.m in Sources */,
 				8EDD31662CE37CD6009DACA9 /* Rectangle.m in Sources */,
 				8EDD31692CE38676009DACA9 /* Triangle.m in Sources */,
 				8E7495E52CF5AA870056F3D2 /* main.m in Sources */,
